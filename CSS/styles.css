@@ -18,11 +18,16 @@
 
 #h1 {
   color: black;
+  text-align: center;
 }
 
-#header {
-  width: 1080px;
-  height: 50px;
-  z-index: 5;
-  color: black;
+#h2 {
+  text-align: center;
+}
+#div {
+  width: 1500px;
+  height: 110px;
+  border: 2px solid black;
+  box-shadow: 10px 10px 10px black;
+  position: relative;
 }
