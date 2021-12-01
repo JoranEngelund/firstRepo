@@ -7,7 +7,7 @@ body{
     width: 1200px;
     height: 800px;
     position: absolute;
-    background: url(Images\stars.gif);
+    background-image: url(..Image/stjerner.gif);
     overflow: hidden;
     left: 250px;
     
