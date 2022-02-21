@@ -1,0 +1,42 @@
+/*Color Palette*/
+/*
+#04217A - Main Dark blue colour for Logo, navigation, headings outside articles and footer
+#094E7D - Secondary grey blue colour for background on articles
+#FFFFFF - White colour for CTA background-color, copy-color and headings-color inside articles 
+#000000 - Black colour for CTA font-colour
+*/
+
+/*Font-Families*/
+/*
+
+font-family: good-times, sans-serif;
+font-weight: 500;
+font-style: normal;
+
+font-family: source-sans-3, sans-serif;s
+font-weight: 400;
+font-style: normal;
+*/
+
+/*Global*/
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  color: #ffffff;
+  font-family: Source-Sans-3;
+}
+
+h1,
+nav a {
+  font-family: good-times, sans-serif;
+  font-weight: 600;
+  color: #04217a;
+  text-decoration: none;
+  list-style: none;
+}
+
+header {
+  display: flex;
+  box-shadow: 0 3px 6px black;
+}
