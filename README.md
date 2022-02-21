@@ -1,4 +1,4 @@
-# firstRepo
+# semester-project_1
 This is semester project 1 at Noroff Vocational School of Media and Technology
 The project is about implementing the knowledge learned across different courses such as Design 1, Web communication and technology aswell as HTML & CSS. 
 The project is briefed that a Community Science Museum is opening in your hometown, and I've been tasked to design a prototype for the webdesign and develop a fully functional and responsive webpage. The site emphasises that the target audience is of the younger generation with the age of 7-15 years old, schools and families. It should be regarded that the target audience is intellegent and the learning will is high. The design phase of the project emphasises good UI and UX Design and the development phase emphasises semantically and neat html, CSS that follows the DRY principle, WCAG compliance in accordance to accessibility and SEO optimilization. The site should also be responsive, attractive and easy to use on all screen sizes
