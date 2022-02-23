@@ -159,9 +159,10 @@ header {
 
 .explore,
 .exhibition,
-.event {
+.event,
+.visit,
+.involved {
   background-color: #094e7d;
-  width: calc(33.3333% - 10px);
   box-sizing: border-box;
   flex-grow: 1;
   text-align: center;
@@ -171,17 +172,15 @@ header {
   font-weight: 400;
 }
 
+.explore,
+.exhibition,
+.event {
+  width: calc(33.3333% - 10px);
+}
+
 .visit,
 .involved {
-  background-color: rgb(9, 78, 125);
   width: calc(50% - 10px);
-  box-sizing: border-box;
-  flex-grow: 1;
-  text-align: center;
-  border-radius: 7px;
-  margin: 10px 5px;
-  max-width: 100vh;
-  font-weight: 400;
 }
 
 /*CTA*/
