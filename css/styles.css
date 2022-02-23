@@ -157,32 +157,6 @@ header {
   width: 100%;
 }
 
-.explore,
-.exhibition,
-.event,
-.visit,
-.involved {
-  background-color: #094e7d;
-  box-sizing: border-box;
-  flex-grow: 1;
-  text-align: center;
-  border-radius: 7px;
-  margin: 10px 5px;
-  max-width: 100vh;
-  font-weight: 400;
-}
-
-.explore,
-.exhibition,
-.event {
-  width: calc(33.3333% - 10px);
-}
-
-.visit,
-.involved {
-  width: calc(50% - 10px);
-}
-
 /*CTA*/
 
 .cta {
