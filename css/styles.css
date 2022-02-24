@@ -319,13 +319,17 @@ footer a {
     nav {
       top: 96.9px;
     }
-    
+
     .navigation {
       font-size: 0.7em;
     }
 
     h2 {
       font-size: 2em;
+    }
+
+    h3 {
+      font-size: 1em;
     }
 
     /*Footer*/
