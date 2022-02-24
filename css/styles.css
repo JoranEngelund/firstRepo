@@ -43,6 +43,7 @@ h3 {
 a {
   text-decoration: none;
   list-style: none;
+  text-transform: uppercase;
 }
 
 h1,
@@ -305,8 +306,12 @@ footer a {
 
   @media only screen and (max-width: 590px) {
 
-    /*Header - Logo - Navigation*/
+    /*Global styles*/
     
+    .logo {
+      width: 56%;
+    }
+
     .anchor-logo-text {
       display: none;
     }
@@ -314,6 +319,17 @@ footer a {
     .navigation {
       font-size: 0.7em;
     }
+
+    h2 {
+      font-size: 2em;
+    }
+
+    /*Footer*/
+
+    footer {
+      font-size: 1em;
+    }
+
     /*Homepage*/
 
 
