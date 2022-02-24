@@ -59,6 +59,10 @@ nav {
   margin-bottom: -14px;
 }
 
+#hamburger-menu, .hamburger-icon {
+  display: none;
+}
+
 .navigation {
   display: flex;
   list-style: none;
@@ -197,7 +201,7 @@ footer a {
 .explore,
 .exhibition,
 .event {
-  width: calc(33.3333% - 10px);
+  max-width: calc(33.3333% - 10px);
 }
 
 .event ul {
@@ -228,4 +232,22 @@ footer a {
 
 .cta:hover {
   box-shadow: 0 3px 3px black, inset 5px 5px 6px black;
+}
+
+/*Screen resize*/
+
+@media only screen and (max-width: 990px) {
+  .explore,
+  .exhibition,
+  .event,
+  .visit,
+  .involved {
+    max-width: calc(100% - 10px);
+  }
+
+  .event ul {
+    margin: 0 0 20px;
+  }
+
+  #hamburger-menu:checked ~ nav {
 }
