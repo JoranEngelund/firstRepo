@@ -324,11 +324,11 @@ footer a {
       font-size: 0.7em;
     }
 
-    .article-title_museum, article h2 {
+    .article-title_museum, .article h2 {
       font-size: 1.5em;
     }
 
-    .article-paragraph_museum, article h3 {
+    .article-paragraph_museum, .article h3 {
       font-size: 1em;
     }
 
