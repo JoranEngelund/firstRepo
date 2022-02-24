@@ -63,7 +63,7 @@ nav {
   display: flex;
   list-style: none;
   gap: 20px;
-  font-size: 0.8em;
+  font-size: 1em;
 }
 
 .navigation_list {
@@ -108,19 +108,41 @@ header {
   font-size: 0.7em;
 }
 
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #04217a;
+  gap: 42px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: auto;
+  font-size: 2em;
+}
+
+footer a {
+  color: #ffffff;
+}
+
+.icon-wrapper,
+.link-wrapper {
+  display: flex;
+  gap: 20px;
+}
+
 /*Home*/
 
 .museum_intro {
   background: url(/images/museum-background.png) right no-repeat;
   background-size: cover;
   box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.5);
-  min-height: 35vh;
-  margin-top: -18px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
 }
 
 .article-title_museum {
-  padding-top: 60px;
+  padding-top: 20px;
   font-size: 2.3em;
   margin-top: inherit;
 }
@@ -139,7 +161,9 @@ header {
 
 .article {
   background-color: #094e7d;
-  min-height: 65vh;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .article h2 {
@@ -150,7 +174,6 @@ header {
 .explore h3,
 .event ul {
   font-size: 1.5em;
-  margin: 10px 10px 86px 10px;
 }
 
 .article img {
@@ -162,7 +185,6 @@ header {
 .event,
 .visit,
 .involved {
-  background-color: #094e7d;
   box-sizing: border-box;
   flex-grow: 1;
   text-align: center;
@@ -178,9 +200,19 @@ header {
   width: calc(33.3333% - 10px);
 }
 
+.event ul {
+  text-align: left;
+  display: inline-block;
+  margin: 0;
+}
+
 .visit,
 .involved {
-  width: calc(50% - 10px);
+  max-width: calc(50% - 10px);
+}
+
+.cta-wrapper {
+  margin-top: auto;
 }
 
 /*CTA*/
@@ -192,4 +224,8 @@ header {
   border-radius: 5px;
   color: #000000;
   font-size: 1.5em;
+}
+
+.cta:hover {
+  box-shadow: 0 3px 3px black, inset 5px 5px 6px black;
 }
