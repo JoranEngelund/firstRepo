@@ -316,6 +316,10 @@ footer a {
       display: none;
     }
 
+    nav {
+      top: 96.9px;
+    }
+    
     .navigation {
       font-size: 0.7em;
     }
