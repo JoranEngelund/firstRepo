@@ -59,7 +59,11 @@ nav {
   margin-bottom: -14px;
 }
 
-#hamburger-menu, .hamburger-icon {
+.hamburger-icon {
+  color: #04217A;
+}
+
+#hamburger-menu, .hamburger-icon{
   display: none;
 }
 
@@ -249,5 +253,28 @@ footer a {
     margin: 0 0 20px;
   }
 
+  .navigation {
+    display: block;
+  }
+
+  nav {
+    display: block;
+    display: none;
+    position: fixed;
+    top: 123.9px;
+    right: -17px;
+    background-color: #FFFFFF;
+    border-radius: 0 0 0 9px;
+
+  }
+
+  .hamburger-icon {
+    font-size: 2em;
+    padding-right: 37px;
+    margin-top: 52px;
+    display: block;
+  }
+
   #hamburger-menu:checked ~ nav {
+    display: block;
 }
