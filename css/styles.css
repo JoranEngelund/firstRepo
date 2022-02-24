@@ -241,20 +241,15 @@ footer a {
 /*Screen resize*/
 
 @media only screen and (max-width: 990px) {
-  .explore,
-  .exhibition,
-  .event,
-  .visit,
-  .involved {
-    max-width: calc(100% - 10px);
-  }
 
-  .event ul {
-    margin: 0 0 20px;
-  }
+  /*Header - Navigation*/
 
   .navigation {
     display: block;
+  }
+
+  .navigation_list {
+    padding: 10px;
   }
 
   nav {
@@ -277,4 +272,49 @@ footer a {
 
   #hamburger-menu:checked ~ nav {
     display: block;
-}
+  }
+
+  /*Footer*/
+
+  footer {
+    font-size: 1.5em;
+  }
+
+  /*Home page*/
+
+  .article-title_museum {
+    font-size: 2em;
+  }
+
+  .article-paragraph_museum {
+    font-size: 1.3em;
+    margin: 0 0 3%;
+  }
+
+  .explore,
+  .exhibition,
+  .event,
+  .visit,
+  .involved {
+    max-width: calc(100% - 10px);
+  }
+
+  .event ul {
+    margin: 0 0 20px;
+  }
+
+  @media only screen and (max-width: 590px) {
+
+    /*Header - Logo - Navigation*/
+    
+    .anchor-logo-text {
+      display: none;
+    }
+
+    .navigation {
+      font-size: 0.7em;
+    }
+    /*Homepage*/
+
+
+  }
