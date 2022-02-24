@@ -239,7 +239,8 @@ footer a {
   box-shadow: 0 3px 3px black, inset 5px 5px 6px black;
 }
 
-/*Screen resize*/
+
+/*Screen resize---------------------------------------------------------------------------------------------------------*/
 
 @media only screen and (max-width: 990px) {
 
@@ -332,6 +333,12 @@ footer a {
       font-size: 1em;
     }
 
+    /*CTA*/
+
+    .cta {
+      font: 1em;
+    }
+    
     /*Footer*/
 
     footer {
