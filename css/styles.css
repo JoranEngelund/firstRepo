@@ -325,6 +325,10 @@ footer a {
       font-size: 0.7em;
     }
 
+    .article-paragraph_museum {
+      margin: 0 3% 3%;
+    }
+
     .article-title_museum, .article h2 {
       font-size: 1.5em;
     }
