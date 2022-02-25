@@ -202,7 +202,7 @@ footer a {
 .exhibition,
 .event,
 .visit,
-.involved {
+.involved, .about-1, .about-2, .about-3, .about-4 {
   box-sizing: border-box;
   flex-grow: 1;
   text-align: center;
@@ -225,12 +225,21 @@ footer a {
 }
 
 .visit,
-.involved {
+.involved, .about-1, .about-2, .about-3, .about-4  {
   max-width: calc(50% - 10px);
 }
 
 .cta-wrapper {
   margin-top: auto;
+}
+
+/*About page*/
+
+.page-headliner {
+  font-size: 2.5em;
+  width: calc(100%);
+  text-align: center;
+  text-decoration: underline;
 }
 
 /*CTA*/
@@ -306,7 +315,11 @@ footer a {
   .exhibition,
   .event,
   .visit,
-  .involved {
+  .involved, 
+  .about-1,
+  .about-2,
+  .about-3,
+  .about-4 {
     max-width: calc(100% - 10px);
   }
 
@@ -350,6 +363,10 @@ footer a {
       margin-top: 37px;
     }
 
+    .page-headliner {
+      font-size: 1.5em;
+    }
+
     /*CTA*/
 
     .cta {
@@ -361,8 +378,5 @@ footer a {
     footer {
       font-size: 1em;
     }
-
-    /*Homepage*/
-
 
   }
