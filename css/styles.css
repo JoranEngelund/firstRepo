@@ -112,10 +112,17 @@ header {
   width: 73%;
 }
 
-.anchor-logo-text {
+.anchor-logo-text, .logo-text {
   align-self: center;
   margin-left: -33px;
   margin-top: 17px;
+}
+
+.logo-text {
+  font-size: 0.934em;
+}
+
+.anchor-logo-text {
   font-size: 0.7em;
 }
 
@@ -315,7 +322,7 @@ footer a {
       width: 56%;
     }
 
-    .anchor-logo-text {
+    .anchor-logo-text, .logo-text{
       display: none;
     }
 
