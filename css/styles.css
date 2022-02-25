@@ -252,8 +252,30 @@ footer a {
   margin-top: auto;
 }
 
-/*About page*/
+/*Explore*/
 
+.researcher-img {
+  height: 105%;
+}
+
+.researcher {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 80%;
+}
+
+.researcher-content {
+  margin-bottom: 117px;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: inherit;
+  text-align: left;
+  align-self: center;
+  margin-left: 3%;
+  margin-right: 3%;
+}
 
 /*CTA*/
 
@@ -273,7 +295,39 @@ footer a {
 
 /*Screen resize---------------------------------------------------------------------------------------------------------*/
 
+@media only screen and (max-width: 1660px){
+
+  /*Explore page*/
+
+  .researcher {
+    display: flex;
+    box-sizing: border-box;
+    flex-grow: 1;
+    text-align: center;
+    border-radius: 7px;
+    margin: 10px 5px;
+    max-width: 100vh;
+    font-weight: 400;
+  }
+  
+  .researcher-img {
+    height: 100%;
+  }
+
+  .researcher-content {
+    text-align: center;
+    margin: 10px 10px 20px 10px;
+  }
+
+  .content-wrapper {
+    text-align: center;
+  }
+
+}
+
 @media only screen and (max-width: 990px) {
+
+  /*Global styles*/
 
   /*Header - Navigation*/
 
@@ -332,7 +386,7 @@ footer a {
   .about-1,
   .about-2,
   .about-3,
-  .about-4 {
+  .about-4, .kids-1, .kids-2, .kids-3, .teachers-1, .teachers-2 {
     max-width: calc(100% - 10px);
   }
 
@@ -378,6 +432,10 @@ footer a {
 
     .page-headliner {
       font-size: 1.5em;
+    }
+
+    .section-headliner {
+      font-size: 1em;
     }
 
     /*CTA*/
