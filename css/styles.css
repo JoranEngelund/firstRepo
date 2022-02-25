@@ -147,6 +147,21 @@ footer a {
   gap: 20px;
 }
 
+.page-headliner, .section-headliner {
+  width: calc(100%);
+  text-align: center;
+  text-decoration: underline;
+}
+
+.page-headliner {
+  font-size: 2.5em;
+}
+
+.section-headliner {
+  color: #04217A;
+  font-size: 2em;
+}
+
 /*Home*/
 
 .museum_intro {
@@ -202,7 +217,7 @@ footer a {
 .exhibition,
 .event,
 .visit,
-.involved, .about-1, .about-2, .about-3, .about-4 {
+.involved, .about-1, .about-2, .about-3, .about-4, .kids-1, .kids-2, .kids-3, .teachers-1, .teachers-2, .researcher  {
   box-sizing: border-box;
   flex-grow: 1;
   text-align: center;
@@ -214,7 +229,7 @@ footer a {
 
 .explore,
 .exhibition,
-.event {
+.event, .kids-1, .kids-2, .kids-3 {
   max-width: calc(33.3333% - 10px);
 }
 
@@ -225,8 +240,12 @@ footer a {
 }
 
 .visit,
-.involved, .about-1, .about-2, .about-3, .about-4  {
+.involved, .about-1, .about-2, .about-3, .about-4, .teachers-1, .teachers-2  {
   max-width: calc(50% - 10px);
+}
+
+.researcher {
+  -max-width: calc(100% - 10px);
 }
 
 .cta-wrapper {
@@ -235,12 +254,6 @@ footer a {
 
 /*About page*/
 
-.page-headliner {
-  font-size: 2.5em;
-  width: calc(100%);
-  text-align: center;
-  text-decoration: underline;
-}
 
 /*CTA*/
 
