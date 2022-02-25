@@ -333,6 +333,10 @@ footer a {
       font-size: 1em;
     }
 
+    .hamburger-icon {
+      margin-top: 32px;
+    }
+
     /*CTA*/
 
     .cta {
