@@ -166,7 +166,7 @@ footer a {
 .exhibition,
 .event,
 .visit,
-.involved, .about-1, .about-2, .about-3, .about-4, .kids-1, .kids-2, .kids-3, .teachers-1, .teachers-2, .researcher, .sky-above-us, .evolution, .biology, .robotics, .ecology {
+.involved, .about-1, .about-2, .about-3, .about-4, .kids-1, .kids-2, .kids-3, .teachers-1, .teachers-2, .researcher, .sky-above-us, .evolution, .biology, .robotics, .ecology, .opening-hours, .admission, .accessibility{
   box-sizing: border-box;
   flex-grow: 1;
   text-align: center;
@@ -178,7 +178,7 @@ footer a {
 
 .explore,
 .exhibition,
-.event, .kids-1, .kids-2, .kids-3, .sky-above-us, .evolution, .biology {
+.event, .kids-1, .kids-2, .kids-3, .sky-above-us, .evolution, .biology, .location, .opening-hours, .admission, .accessibility, .cafe, .shop {
   max-width: calc(33.3333% - 10px);
 }
 
@@ -187,6 +187,22 @@ footer a {
   max-width: calc(50% - 10px);
 }
 
+.explore h3,
+.event ul, .hours {
+  font-size: 1.5em;
+}
+
+.event ul, .hours {
+  text-align: left;
+  display: inline-block;
+  margin: 0;
+}
+
+.events {
+  max-width: 100%;
+  margin: 15px 10px;
+  border-radius: 9px;
+}
 
 /*Home-----------------------------------------------------------------------------------------------------------------------*/
 
@@ -230,22 +246,9 @@ footer a {
   font-size: 2.5em;
 }
 
-.explore h3,
-.event ul {
-  font-size: 1.5em;
-}
-
 .article img {
   width: 100%;
 }
-
-
-.event ul {
-  text-align: left;
-  display: inline-block;
-  margin: 0;
-}
-
 
 .researcher {
   max-width: calc(100% - 10px);
@@ -285,15 +288,15 @@ footer a {
 
 /*Events page -----------------------------------------------------------------------------------------------------------------*/
 
-.events {
-  max-width: 100%;
-  margin: 15px 10px;
-  border-radius: 9px;
-}
-
 .content-events {
   min-height: 100%;
   justify-content: space-evenly;
+}
+
+/*Visit page-------------------------------------------------------------------------------------------------------------------*/
+
+.hours {
+  list-style: none;
 }
 
 /*CTA -------------------------------------------------------------------------------------------------------------------------*/
@@ -391,7 +394,7 @@ footer a {
   .about-1,
   .about-2,
   .about-3,
-  .about-4, .kids-1, .kids-2, .kids-3, .teachers-1, .teachers-2, .sky-above-us, .evolution, .biology, .robotics, .ecology {
+  .about-4, .kids-1, .kids-2, .kids-3, .teachers-1, .teachers-2, .sky-above-us, .evolution, .biology, .robotics, .ecology, .location .opening-hours, .admission, .accessibility, .cafe, .shop {
     max-width: calc(100% - 10px);
   }
 
