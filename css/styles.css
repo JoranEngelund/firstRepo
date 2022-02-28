@@ -217,7 +217,7 @@ footer a {
 .exhibition,
 .event,
 .visit,
-.involved, .about-1, .about-2, .about-3, .about-4, .kids-1, .kids-2, .kids-3, .teachers-1, .teachers-2, .researcher  {
+.involved, .about-1, .about-2, .about-3, .about-4, .kids-1, .kids-2, .kids-3, .teachers-1, .teachers-2, .researcher, .sky-above-us, .evolution, .biology, .robotics, .ecology {
   box-sizing: border-box;
   flex-grow: 1;
   text-align: center;
@@ -229,7 +229,7 @@ footer a {
 
 .explore,
 .exhibition,
-.event, .kids-1, .kids-2, .kids-3 {
+.event, .kids-1, .kids-2, .kids-3, .sky-above-us, .evolution, .biology {
   max-width: calc(33.3333% - 10px);
 }
 
@@ -240,12 +240,12 @@ footer a {
 }
 
 .visit,
-.involved, .about-1, .about-2, .about-3, .about-4, .teachers-1, .teachers-2  {
+.involved, .about-1, .about-2, .about-3, .about-4, .teachers-1, .teachers-2, .robotics, .ecology  {
   max-width: calc(50% - 10px);
 }
 
 .researcher {
-  -max-width: calc(100% - 10px);
+  max-width: calc(100% - 10px);
 }
 
 .cta-wrapper {
@@ -386,7 +386,7 @@ footer a {
   .about-1,
   .about-2,
   .about-3,
-  .about-4, .kids-1, .kids-2, .kids-3, .teachers-1, .teachers-2 {
+  .about-4, .kids-1, .kids-2, .kids-3, .teachers-1, .teachers-2, .sky-above-us, .evolution, .biology, .robotics, .ecology {
     max-width: calc(100% - 10px);
   }
 
