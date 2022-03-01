@@ -357,8 +357,7 @@ footer a {
 .cafe,
 .shop {
   min-width: calc(100% - 10px);
-  margin-top: 15px;
-  margin-bottom: 20px;
+  margin: 15px 5px 20px 5px;
 }
 
 .location h3,
@@ -560,7 +559,8 @@ footer a {
 
   .article-paragraph_museum,
   .article h3,
-  .event ul {
+  .event ul,
+  .hours {
     font-size: 1em;
   }
 
