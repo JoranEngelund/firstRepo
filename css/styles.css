@@ -298,7 +298,7 @@ footer a {
 .opening-hours h2,
 .admission h2,
 .accessibility h2 {
-  font-size: 2.5em;
+  font-size: 2em;
   margin: 20px 0 17px 0;
 }
 
@@ -365,6 +365,15 @@ footer a {
 .shop h3,
 .cafe h3 {
   margin: 10px 0 10px;
+}
+
+.visit-content-wrapper {
+  display: flex;
+  flex-direction: inherit;
+  text-align: left;
+  align-self: center;
+  margin-left: 3%;
+  margin-right: 3%;
 }
 
 /*CTA -------------------------------------------------------------------------------------------------------------------------*/
@@ -512,9 +521,8 @@ footer a {
   }
 
   .visit-content-wrapper {
-    display: flex;
-    flex-direction: inherit;
-    text-align: left;
+    text-align: center;
+    flex-direction: column;
     align-self: center;
     margin-left: 3%;
     margin-right: 3%;
