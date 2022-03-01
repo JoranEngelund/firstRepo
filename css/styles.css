@@ -63,10 +63,11 @@ nav {
 }
 
 .hamburger-icon {
-  color: #04217A;
+  color: #04217a;
 }
 
-#hamburger-menu, .hamburger-icon{
+#hamburger-menu,
+.hamburger-icon {
   display: none;
 }
 
@@ -112,7 +113,8 @@ header {
   width: 73%;
 }
 
-.anchor-logo-text, .logo-text {
+.anchor-logo-text,
+.logo-text {
   align-self: center;
   margin-left: -33px;
   margin-top: 17px;
@@ -147,7 +149,8 @@ footer a {
   gap: 20px;
 }
 
-.page-headliner, .section-headliner {
+.page-headliner,
+.section-headliner {
   width: calc(100%);
   text-align: center;
   text-decoration: underline;
@@ -158,7 +161,7 @@ footer a {
 }
 
 .section-headliner {
-  color: #04217A;
+  color: #04217a;
   font-size: 2em;
 }
 
@@ -166,7 +169,29 @@ footer a {
 .exhibition,
 .event,
 .visit,
-.involved, .about-1, .about-2, .about-3, .about-4, .kids-1, .kids-2, .kids-3, .teachers-1, .teachers-2, .researcher, .sky-above-us, .evolution, .biology, .robotics, .ecology, .event-1, .event-2, .event-3, .event-4, .opening-hours, .admission, .accessibility {
+.involved,
+.about-1,
+.about-2,
+.about-3,
+.about-4,
+.kids-1,
+.kids-2,
+.kids-3,
+.teachers-1,
+.teachers-2,
+.researcher,
+.sky-above-us,
+.evolution,
+.biology,
+.robotics,
+.ecology,
+.event-1,
+.event-2,
+.event-3,
+.event-4,
+.opening-hours,
+.admission,
+.accessibility {
   box-sizing: border-box;
   flex-grow: 1;
   text-align: center;
@@ -178,21 +203,44 @@ footer a {
 
 .explore,
 .exhibition,
-.event, .kids-1, .kids-2, .kids-3, .sky-above-us, .evolution, .biology, .opening-hours, .admission, .accessibility {
+.event,
+.kids-1,
+.kids-2,
+.kids-3,
+.sky-above-us,
+.evolution,
+.biology,
+.opening-hours,
+.admission,
+.accessibility {
   max-width: calc(33.3333% - 10px);
 }
 
 .visit,
-.involved, .about-1, .about-2, .about-3, .about-4, .teachers-1, .teachers-2, .robotics, .ecology, .event-1, .event-2, .event-3, .event-4  {
+.involved,
+.about-1,
+.about-2,
+.about-3,
+.about-4,
+.teachers-1,
+.teachers-2,
+.robotics,
+.ecology,
+.event-1,
+.event-2,
+.event-3,
+.event-4 {
   max-width: calc(50% - 10px);
 }
 
 .explore h3,
-.event ul, .hours {
+.event ul,
+.hours {
   font-size: 1.5em;
 }
 
-.event ul, .hours {
+.event ul,
+.hours {
   text-align: left;
   display: inline-block;
   margin: 0;
@@ -247,7 +295,9 @@ footer a {
   font-size: 2.5em;
 }
 
-.opening-hours h2, .admission h2, .accessibility h2 {
+.opening-hours h2,
+.admission h2,
+.accessibility h2 {
   font-size: 2.5em;
   margin: 20px 0 17px 0;
 }
@@ -274,7 +324,10 @@ footer a {
   max-width: 80%;
 }
 
-.researcher, .location, .cafe, .shop {
+.researcher,
+.location,
+.cafe,
+.shop {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -294,19 +347,23 @@ footer a {
 
 /*Events page -----------------------------------------------------------------------------------------------------------------*/
 
-
 /*Visit page-------------------------------------------------------------------------------------------------------------------*/
 
 .hours {
   list-style: none;
 }
 
-.location, .cafe, .shop {
+.location,
+.cafe,
+.shop {
   min-width: calc(100% - 10px);
-  margin-top: 20px;
+  margin-top: 15px;
+  margin-bottom: 20px;
 }
 
-.location h3, .shop h3, .cafe h3 {
+.location h3,
+.shop h3,
+.cafe h3 {
   margin: 10px 0 10px;
 }
 
@@ -325,14 +382,12 @@ footer a {
   box-shadow: 0 3px 3px black, inset 5px 5px 6px black;
 }
 
-
 /*Screen resize---------------------------------------------------------------------------------------------------------------*/
 
-@media only screen and (max-width: 1660px){
-
+@media only screen and (max-width: 1660px) {
   /* Global Styles*/
 
-  .researcher, .location, .cafe, .shop {
+  .researcher {
     display: flex;
     box-sizing: border-box;
     flex-grow: 1;
@@ -342,7 +397,7 @@ footer a {
     max-width: 100vh;
     font-weight: 400;
   }
-  
+
   .researcher-img {
     height: 100%;
   }
@@ -351,15 +406,15 @@ footer a {
     margin: 10px 10px 20px 10px;
   }
 
-  .content-wrapper, .researcher-content {
+  .content-wrapper,
+  .researcher-content {
     text-align: center;
   }
 
   /*Event Page ----------------------------------------------------------------------------------------------------------------*/
-
+}
 
 @media only screen and (max-width: 990px) {
-
   /*Global styles--------------------------------------------------------------------------------------------------------------*/
 
   .navigation {
@@ -376,9 +431,8 @@ footer a {
     position: fixed;
     top: 123.9px;
     right: -17px;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     border-radius: 0 0 0 9px;
-
   }
 
   .hamburger-icon {
@@ -396,11 +450,28 @@ footer a {
   .exhibition,
   .event,
   .visit,
-  .involved, 
+  .involved,
   .about-1,
   .about-2,
   .about-3,
-  .about-4, .kids-1, .kids-2, .kids-3, .teachers-1, .teachers-2, .sky-above-us, .evolution, .biology, .robotics, .ecology, .event-1, .event-2, .event-3, .event-4, .opening-hours, .admission, .accessibility {
+  .about-4,
+  .kids-1,
+  .kids-2,
+  .kids-3,
+  .teachers-1,
+  .teachers-2,
+  .sky-above-us,
+  .evolution,
+  .biology,
+  .robotics,
+  .ecology,
+  .event-1,
+  .event-2,
+  .event-3,
+  .event-4,
+  .opening-hours,
+  .admission,
+  .accessibility {
     max-width: calc(100% - 10px);
   }
 
@@ -425,60 +496,87 @@ footer a {
     margin: 0 0 20px;
   }
 
-  @media only screen and (max-width: 590px) {
+  /*test*/
 
-    /*Global styles ----------------------------------------------------------------------------------------------------------*/
-    
-    .logo {
-      width: 56%;
-    }
-
-    .anchor-logo-text, .logo-text{
-      display: none;
-    }
-
-    nav {
-      top: 95.9px;
-    }
-
-    .navigation {
-      font-size: 0.7em;
-    }
-
-    .article-paragraph_museum {
-      margin: 0 3% 3%;
-    }
-
-    .article-title_museum, .article h2 {
-      font-size: 1.5em;
-    }
-
-    .article-paragraph_museum, .article h3, .event ul {
-      font-size: 1em;
-    }
-
-    .hamburger-icon {
-      margin-top: 37px;
-    }
-
-    .page-headliner {
-      font-size: 1.5em;
-    }
-
-    .section-headliner {
-      font-size: 1em;
-    }
-
-    /*CTA --------------------------------------------------------------------------------------------------------------------*/
-
-    .cta {
-      font-size: 1em;
-    }
-    
-    /*Footer -----------------------------------------------------------------------------------------------------------------*/
-
-    footer {
-      font-size: 1em;
-    }
-
+  .location,
+  .cafe,
+  .shop {
+    display: flex;
+    box-sizing: border-box;
+    flex-grow: 1;
+    text-align: center;
+    border-radius: 7px;
+    margin: 10px 5px;
+    max-width: 100vh;
+    font-weight: 400;
   }
+
+  .visit-content-wrapper {
+    display: flex;
+    flex-direction: inherit;
+    text-align: left;
+    align-self: center;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+}
+
+@media only screen and (max-width: 590px) {
+  /*Global styles ----------------------------------------------------------------------------------------------------------*/
+
+  .logo {
+    width: 56%;
+  }
+
+  .anchor-logo-text,
+  .logo-text {
+    display: none;
+  }
+
+  nav {
+    top: 95.9px;
+  }
+
+  .navigation {
+    font-size: 0.7em;
+  }
+
+  .article-paragraph_museum {
+    margin: 0 3% 3%;
+  }
+
+  .article-title_museum,
+  .article h2 {
+    font-size: 1.5em;
+  }
+
+  .article-paragraph_museum,
+  .article h3,
+  .event ul {
+    font-size: 1em;
+  }
+
+  .hamburger-icon {
+    margin-top: 37px;
+  }
+
+  .page-headliner {
+    font-size: 1.5em;
+  }
+
+  .section-headliner {
+    font-size: 1em;
+  }
+
+  /*CTA --------------------------------------------------------------------------------------------------------------------*/
+
+  .cta {
+    font-size: 1em;
+  }
+
+  /*Footer -----------------------------------------------------------------------------------------------------------------*/
+
+  footer {
+    font-size: 1em;
+  }
+}
