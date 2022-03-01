@@ -166,7 +166,7 @@ footer a {
 .exhibition,
 .event,
 .visit,
-.involved, .about-1, .about-2, .about-3, .about-4, .kids-1, .kids-2, .kids-3, .teachers-1, .teachers-2, .researcher, .sky-above-us, .evolution, .biology, .robotics, .ecology, .event-1, .event-2, .event-3, .event-4 {
+.involved, .about-1, .about-2, .about-3, .about-4, .kids-1, .kids-2, .kids-3, .teachers-1, .teachers-2, .researcher, .sky-above-us, .evolution, .biology, .robotics, .ecology, .event-1, .event-2, .event-3, .event-4, .opening-hours, .admission, .accessibility {
   box-sizing: border-box;
   flex-grow: 1;
   text-align: center;
@@ -178,7 +178,7 @@ footer a {
 
 .explore,
 .exhibition,
-.event, .kids-1, .kids-2, .kids-3, .sky-above-us, .evolution, .biology {
+.event, .kids-1, .kids-2, .kids-3, .sky-above-us, .evolution, .biology, .opening-hours, .admission, .accessibility {
   max-width: calc(33.3333% - 10px);
 }
 
@@ -247,6 +247,11 @@ footer a {
   font-size: 2.5em;
 }
 
+.opening-hours h2, .admission h2, .accessibility h2 {
+  font-size: 2.5em;
+  margin: 20px 0 17px 0;
+}
+
 .article img {
   width: 100%;
 }
@@ -269,7 +274,7 @@ footer a {
   max-width: 80%;
 }
 
-.researcher {
+.researcher, .location, .cafe, .shop {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -296,6 +301,15 @@ footer a {
   list-style: none;
 }
 
+.location, .cafe, .shop {
+  min-width: calc(100% - 10px);
+  margin-top: 20px;
+}
+
+.location h3, .shop h3, .cafe h3 {
+  margin: 10px 0 10px;
+}
+
 /*CTA -------------------------------------------------------------------------------------------------------------------------*/
 
 .cta {
@@ -318,7 +332,7 @@ footer a {
 
   /* Global Styles*/
 
-  .researcher {
+  .researcher, .location, .cafe, .shop {
     display: flex;
     box-sizing: border-box;
     flex-grow: 1;
@@ -386,7 +400,7 @@ footer a {
   .about-1,
   .about-2,
   .about-3,
-  .about-4, .kids-1, .kids-2, .kids-3, .teachers-1, .teachers-2, .sky-above-us, .evolution, .biology, .robotics, .ecology, .event-1, .event-2, .event-3, .event-4 {
+  .about-4, .kids-1, .kids-2, .kids-3, .teachers-1, .teachers-2, .sky-above-us, .evolution, .biology, .robotics, .ecology, .event-1, .event-2, .event-3, .event-4, .opening-hours, .admission, .accessibility {
     max-width: calc(100% - 10px);
   }
 
