@@ -384,6 +384,47 @@ footer a {
   margin: 15px 5px 20px 5px;
 }
 
+/*Contact page*/
+
+.contact {
+  align-items: center;
+  min-width: 100%;
+  margin-bottom: 15px;
+}
+
+.form-input {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 100%;
+  height: 60vh;
+  background-color: #094e7d;
+}
+
+.form_input_field {
+  color: #ffffff;
+  background-color: #094e7d;
+  border: none;
+  border-bottom: 2px solid #ffffff;
+  margin: 5px auto;
+  border-radius: 0;
+  font-size: 1em;
+}
+
+.form-label {
+  color: #ffffff;
+}
+
+.form_input_type {
+  gap: 5px;
+}
+
+::placeholder {
+  color: #ffffff;
+  opacity: 70%;
+}
+
 /*CTA*/
 
 .cta {
