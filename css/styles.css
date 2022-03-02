@@ -320,7 +320,10 @@ footer a {
 .researcher,
 .location,
 .cafe,
-.shop {
+.shop,
+.support,
+.volunteer,
+.internship {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -373,6 +376,14 @@ footer a {
   margin: 20px 0 17px 0;
 }
 
+/*Involved page*/
+
+.support,
+.volunteer,
+.internship {
+  margin: 15px 5px 20px 5px;
+}
+
 /*CTA*/
 
 .cta {
@@ -393,7 +404,10 @@ footer a {
 @media only screen and (max-width: 1660px) {
   /* Global Styles*/
 
-  .researcher {
+  .researcher,
+  .support,
+  .volunteer,
+  .internship {
     display: flex;
     box-sizing: border-box;
     flex-grow: 1;
@@ -433,7 +447,7 @@ footer a {
     display: block;
     display: none;
     position: fixed;
-    top: 123.9px;
+    top: 122.9px;
     right: -17px;
     background-color: #ffffff;
     border-radius: 0 0 0 9px;
