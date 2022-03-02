@@ -418,11 +418,16 @@ footer a {
 
 .form_input_type {
   gap: 5px;
+  margin: 5px;
 }
 
 ::placeholder {
   color: #ffffff;
   opacity: 70%;
+}
+
+#user-type {
+  margin-bottom: 36px;
 }
 
 /*CTA*/
