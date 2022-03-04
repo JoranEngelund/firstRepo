@@ -36,11 +36,86 @@ footer,
   display: flex;
 }
 
-body {
+body,
+.museum_intro,
+.article,
+.form-input {
   flex-direction: column;
+}
+
+a,
+h1,
+nav a {
+  text-decoration: none;
+}
+
+a,
+h1,
+nav a,
+.navigation,
+.hours {
+  list-style: none;
+}
+
+.anchor-logo,
+.anchor-logo-text,
+.logo-text,
+.content-wrapper,
+.visit-content-wrapper {
+  align-self: center;
+}
+
+footer,
+.articles,
+.form-input {
+  justify-content: center;
+}
+
+.page-headliner,
+.section-headliner,
+.explore,
+.exhibition,
+.event,
+.visit,
+.involved,
+.about-1,
+.about-2,
+.about-3,
+.about-4,
+.kids-1,
+.kids-2,
+.kids-3,
+.teachers-1,
+.teachers-2,
+.researcher,
+.sky-above-us,
+.evolution,
+.biology,
+.robotics,
+.ecology,
+.event-1,
+.event-2,
+.event-3,
+.event-4,
+.opening-hours,
+.admission,
+.accessibility,
+.museum_intro,
+.form-input {
+  text-align: center;
+}
+
+body,
+footer a,
+.form_input_field,
+.form-label,
+::placeholder {
+  color: #ffffff;
+}
+
+body {
   min-height: 100vh;
   margin: 0;
-  color: #ffffff;
   font-family: source-sans-3, sans-serif, "Segoe UI", Tahoma, Geneva, Verdana;
 }
 
@@ -58,16 +133,12 @@ h3 {
 }
 
 a {
-  text-decoration: none;
-  list-style: none;
   text-transform: uppercase;
 }
 
 h1,
 nav a {
   color: #04217a;
-  text-decoration: none;
-  list-style: none;
 }
 
 nav {
@@ -87,7 +158,6 @@ nav {
 }
 
 .navigation {
-  list-style: none;
   gap: 20px;
   font-size: 1em;
 }
@@ -96,10 +166,7 @@ nav {
   opacity: 50%;
 }
 
-.navigation_list:hover {
-  opacity: 100%;
-}
-
+.navigation_list:hover,
 .active {
   opacity: 100%;
 }
@@ -114,17 +181,12 @@ header {
   justify-content: space-between;
 }
 
-.anchor-logo {
-  align-self: center;
-}
-
 .logo {
   width: 73%;
 }
 
 .anchor-logo-text,
 .logo-text {
-  align-self: center;
   margin-left: -33px;
   margin-top: 17px;
 }
@@ -138,17 +200,12 @@ header {
 }
 
 footer {
-  justify-content: center;
   background-color: #04217a;
   gap: 42px;
   padding-top: 10px;
   padding-bottom: 10px;
   margin-top: auto;
   font-size: 2em;
-}
-
-footer a {
-  color: #ffffff;
 }
 
 .icon-wrapper,
@@ -159,7 +216,6 @@ footer a {
 .page-headliner,
 .section-headliner {
   width: calc(100%);
-  text-align: center;
   text-decoration: underline;
 }
 
@@ -201,7 +257,6 @@ footer a {
 .accessibility {
   box-sizing: border-box;
   flex-grow: 1;
-  text-align: center;
   border-radius: 7px;
   margin: 10px 5px;
   max-width: 100vh;
@@ -265,8 +320,6 @@ footer a {
   background: url(/images/museum-background_v2.jpg) right no-repeat;
   background-size: cover;
   box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.5);
-  text-align: center;
-  flex-direction: column;
   padding-bottom: 20px;
 }
 
@@ -284,13 +337,11 @@ footer a {
 
 .articles {
   flex-wrap: wrap;
-  justify-content: center;
 }
 
 .article {
   background-color: #094e7d;
   padding-bottom: 20px;
-  flex-direction: column;
   box-shadow: 0 3px 6px black;
 }
 
@@ -339,16 +390,11 @@ footer a {
 .content-wrapper {
   flex-direction: inherit;
   text-align: left;
-  align-self: center;
   margin-left: 3%;
   margin-right: 3%;
 }
 
 /*Visit page*/
-
-.hours {
-  list-style: none;
-}
 
 .location,
 .cafe,
@@ -366,7 +412,6 @@ footer a {
 .visit-content-wrapper {
   flex-direction: inherit;
   text-align: left;
-  align-self: center;
   margin-left: 3%;
   margin-right: 3%;
 }
@@ -388,23 +433,22 @@ footer a {
 
 /*Contact page*/
 
+.contact,
+.form-input {
+  min-width: 100%;
+}
+
 .contact {
   align-items: center;
-  min-width: 100%;
   margin-bottom: 15px;
   background-color: #094e7d;
 }
 
 .form-input {
-  text-align: center;
-  flex-direction: column;
-  justify-content: center;
-  min-width: 100%;
   margin: 4% 5%;
 }
 
 .form_input_field {
-  color: #ffffff;
   background-color: #094e7d;
   border: none;
   border-bottom: 2px solid #ffffff;
@@ -413,17 +457,12 @@ footer a {
   font-size: 1em;
 }
 
-.form-label {
-  color: #ffffff;
-}
-
 .form_input_type {
   gap: 5px;
   margin: 5px;
 }
 
 ::placeholder {
-  color: #ffffff;
   opacity: 70%;
 }
 
@@ -485,7 +524,10 @@ footer a {
 @media only screen and (max-width: 990px) {
   /*Global styles*/
 
-  .navigation {
+  .navigation,
+  nav,
+  .hamburger-icon,
+  #hamburger-menu:checked ~ nav {
     display: block;
   }
 
@@ -494,7 +536,6 @@ footer a {
   }
 
   nav {
-    display: block;
     display: none;
     position: fixed;
     top: 122.9px;
@@ -507,11 +548,6 @@ footer a {
     font-size: 2em;
     padding-right: 37px;
     margin-top: 52px;
-    display: block;
-  }
-
-  #hamburger-menu:checked ~ nav {
-    display: block;
   }
 
   .explore,
