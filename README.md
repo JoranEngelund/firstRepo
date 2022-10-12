@@ -20,7 +20,7 @@ The site emphasises that the target audience is of the younger generation with t
 - ```HTML5```
 - ```CSS3```
 - ```Web Accessibility```
-- ```SEO optimilization```
+- ```SEO Optimilization```
 
 ## Project Grade:
 - ```A```
