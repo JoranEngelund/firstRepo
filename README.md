@@ -2,7 +2,8 @@
 
 ![community_science_museum](https://user-images.githubusercontent.com/56642663/195356415-de456eb6-8e4c-4abd-94be-cc3e86456bc8.jpg)
 
-A newly opened Community Science Museum website for the younger generation, to further enhance the curious mind of what the world and the universe had and has to offer. This project is developed during the 1st year in Front-End Development studies at Noroff Vocational School of Media and Technology
+A newly opened Community Science Museum in your hometown has asked for a website for the younger generation, to further enhance the curious mind of what the world and the universe had and has to offer. Also to encourage visits by the younger minds, families, field-trips and encourage involvements on the museum.
+This project is developed during the 1st year in Front-End Development studies at Noroff Vocational School of Media and Technology
 
 ## Description
 
